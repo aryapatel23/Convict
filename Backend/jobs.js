@@ -80,7 +80,7 @@ app.patch('/internships/:id', async (req, res) => {
         const result = await jobs.updateOne({_id: new ObjectId (internshipsId) }, { $set: updates });
         res.status(200).send(`${result.modifiedCount} document(s) updated`);
     } catch (err) {
-        res.status(500).send("Error partially updating student: " + err.message);
+        res.status(500).send("Error partially updating job: " + err.message);
     }
 });
 
@@ -91,6 +91,6 @@ app.delete('/internships/:id', async (req, res) => {
         const result = await jobs.deleteOne({_id:new ObjectId (internshipId) });
         res.status(200).send(`${result.deletedCount} document(s) deleted`);
     } catch (err) {
-        res.status(500).send("Error deleting student: " + err.message);
+        res.status(500).send("Error deleting job: " + err.message);
     }
 });
