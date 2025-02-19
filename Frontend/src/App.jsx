@@ -4,6 +4,7 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar.jsx";
 import Contectus from './Pages/ContactUs/Contactus.jsx';
 import './App.css' 
+import Aboutus from './Pages/AboutUs/Aboutus.jsx';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Navbar/>
         <Routes>
         <Route path='/contactus' element={<Contectus/>}/>
+        <Route path='/Aboutus' element={<Aboutus/>}/>
         </Routes>
       </Router>
     </>
