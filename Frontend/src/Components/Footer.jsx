@@ -38,8 +38,8 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="flex justify-between items-center pt-5 bg-[#1a0e26] px-5">
         <div className="ml-5">
-          <div className="flex items-center">
-            <img src="https://res.cloudinary.com/dzsvjyg2c/image/upload/v1738649519/cinn4jbfs4fpl6uq9tqn.png" alt="Logo" className="h-10" />
+          <div className="flex items-center pt-10">
+            <img src="https://res.cloudinary.com/dzsvjyg2c/image/upload/v1738649519/cinn4jbfs4fpl6uq9tqn.png" alt="Logo" className="h-20" />
             <h4 className="ml-5 text-lg font-bold">Follow us on social media</h4>
           </div>
           <div className="flex gap-4 text-2xl mt-3 ml-5">
