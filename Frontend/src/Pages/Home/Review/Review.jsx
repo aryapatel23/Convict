@@ -35,15 +35,15 @@ const Review = () => {
 
 
     return (
-        <div className='Review-container'>
-            <div className='leftsection'>
+        <div className='testimonial-container'>
+            <div className='testimonial-left'>
                 <div className='quote-icon'>❝</div>
                 <h2>Join the community of 5 crore satsfied job seekers...</h2>
             </div>
-            <div className='rightcomment-section'>
+            <div className='testimonial-right'>
                 <div className='testimonial-slider'>
                     {comments.map((comment) => (
-                        <div key={comment.id} className='testimonial-card'>
+                        <div key={comment.id} className='testimonial-cardforreview'>
                             <img
                                 src={comment.image}
                                 alt={comment.name}
