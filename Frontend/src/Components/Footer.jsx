@@ -4,11 +4,11 @@ import { FaInstagram, FaYoutube, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="text-white pt-24">
+    <footer style={{ color: 'white'}}>
       {/* Footer Top */}
-      <div className="flex justify-around border-b border-white/20 pb-5 bg-[#F4F2F6]">
+      <div className="flex justify-around border-white/20 bg-[#F4F2F6]">
         <div className="text-black">
-          <h4 className="text-lg font-semibold mb-4 pt-12">Link</h4>
+          <h4 className="text-lg font-semibold mb-4">Link</h4>
           <ul className="list-none p-0">
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">Free job alert</a></li>
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">Free internship alert</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-black">
-          <h4 className="text-lg font-semibold mb-4 pt-12">Legal</h4>
+          <h4 className="text-lg font-semibold mb-4">Legal</h4>
           <ul className="list-none p-0">
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">Privacy Policy</a></li>
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">User Terms & Condition</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-black">
-          <h4 className="text-lg font-semibold mb-4 pt-12">Resources</h4>
+          <h4 className="text-lg font-semibold mb-4">Resources</h4>
           <ul className="list-none p-0">
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">Blog</a></li>
             <li className="mb-2"><a href="#" className="hover:text-yellow-500">Sitemap</a></li>
@@ -36,9 +36,9 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="flex justify-between items-center pt-5 bg-[#1a0e26] px-5">
+      <div className="flex justify-between items-center py-8 bg-[#1a0e26] px-5">
         <div className="ml-5">
-          <div className="flex items-center pt-10">
+          <div className="flex items-center">
             <img src="https://res.cloudinary.com/dzsvjyg2c/image/upload/v1738649519/cinn4jbfs4fpl6uq9tqn.png" alt="Logo" className="h-20" />
             <h4 className="ml-5 text-lg font-bold">Follow us on social media</h4>
           </div>
@@ -55,6 +55,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+
   );
 };
 
