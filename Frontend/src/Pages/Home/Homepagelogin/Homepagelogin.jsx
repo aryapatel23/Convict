@@ -4,7 +4,7 @@ import './Homepagelogin.css'
 const Homepagelogin = () => {
     return (
         <div className='Homeloginpage'>
-            <div className="banner-container">
+            <div className="loginbanner-container">
                 <h2 className='Homelogintxt'>
                     Empower your career <br /> with Convict Today
                 </h2>
