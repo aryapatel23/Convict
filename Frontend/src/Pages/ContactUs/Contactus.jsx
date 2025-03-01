@@ -55,7 +55,7 @@ const Contactus = () => {
   };
 
   return (
-    <div className="fullpage">
+    <div className="fullpageforcontactus">
       <div className="bg-for-contectus">
         <div className="contectus-img">
           <img
@@ -127,18 +127,18 @@ const Contactus = () => {
       <div className="contact-info">
         <div className="contact-item">
           <FaPhoneAlt className="contact-icon" size={50} />
-          <h3>Phone</h3>
-          <p>+91 -9727659023</p>
+          <h3 className="office-info">Phone</h3>
+          <p className="office-info-details">+91 -9727659023</p>
         </div>
         <div className="contact-item">
           <FaEnvelope className="contact-icon" size={50} />
-          <h3>Email</h3>
-          <p>enroll@convict.com</p>
+          <h3 className="office-info">Email</h3>
+          <p className="office-info-details">enroll@convict.com</p>
         </div>
         <div className="contact-item">
           <FaMapMarkerAlt className="contact-icon" size={50} />
-          <h3>Office</h3>
-          <p>Ahmedabad, Gujarat, India</p>
+          <h3 className="office-info">Office</h3>
+          <p className="office-info-details">Ahmedabad, Gujarat, India</p>
         </div>
       </div>
           <Footer/>

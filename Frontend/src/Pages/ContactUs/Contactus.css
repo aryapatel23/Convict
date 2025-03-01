@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  .fullpage {
+  .fullpageforcontactus {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
@@ -136,13 +136,13 @@ body {
     margin-bottom: 10px; 
   }
   
-  h3 {
+.office-info {
     margin: 5px 0;
     font-size: 20px;
     color: #1F8268;
   }
   
-  p {
+.office-info-details {
     font-size: 16px;
   }
   
