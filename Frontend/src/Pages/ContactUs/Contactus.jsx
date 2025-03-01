@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import "./Contactus.css";
-import Footer from "../../Components/Footer.jsx"
+import Footer from "../../Components/Footer/Footer"
 
 
 const Contactus = () => {
