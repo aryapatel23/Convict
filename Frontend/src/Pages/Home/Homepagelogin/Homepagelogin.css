@@ -1,0 +1,39 @@
+.Homeloginpage{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4f4c7;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+  }
+  .Homelogintxt{
+    font-size: 30px;
+    font-weight: 600;
+    width: 400px;
+    padding-left: 50px;
+  }
+  
+  .google-login {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .google-login img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
