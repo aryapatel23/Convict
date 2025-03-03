@@ -1,0 +1,33 @@
+.mainbanner-component{
+    width: 100%;
+    background-color: #EAF8F4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtforbanner{
+    margin-top: 100px;
+}
+
+.firsttxtfor-banner{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.secondtxtfor-banner{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.thirdtxtfor-banner{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.imgfor-banner{
+    margin-top: 100px;
+}
+
+.imgfor-banner img{
+    width: 350px;
+}
