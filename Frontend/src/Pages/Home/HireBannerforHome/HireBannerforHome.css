@@ -1,0 +1,64 @@
+.HireBannerforHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.HireBannerforHome-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eefaf5;
+    padding: 0 30px;
+    border-radius: 10px;
+    width: 80%;
+  }
+  
+  .HireBannerforHome-txt {
+    max-width: 50%;
+  }
+  
+  .HireBannerforHome-tag {
+    background-color: #a8d5ba;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .HireBannerforHome-hiretxt{
+    color: #206a5d;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  
+  .HireBannerforHome-hirepara {
+    color: #4f4f4f;
+    font-size: 16px;
+  }
+  
+  .HireBannerforHome-postjob {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .HireBannerforHome-postjob span {
+    margin-left: 10px;
+  }
+  
+  .HireBannerforHome-image img {
+    max-width: 400px;
+    border-radius: 10px;
+    padding-top: 30px;
+  }
+  

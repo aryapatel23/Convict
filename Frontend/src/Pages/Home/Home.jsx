@@ -4,6 +4,7 @@ import Trendingjob from './Trendingjob/Trendingjob'
 import Review from './Review/Review'
 import Homepagelogin from './Homepagelogin/Homepagelogin'
 import MainBanner from './MainBanner/MainBanner'
+import HireBannerforHome from './HireBannerforHome/HireBannerforHome'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Trendingjob/>
       <Review/>
       <Homepagelogin/>
+      <HireBannerforHome/>
     </div>
   )
 }
