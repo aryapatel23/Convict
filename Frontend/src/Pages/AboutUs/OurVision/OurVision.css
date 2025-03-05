@@ -1,0 +1,67 @@
+.aboutus-vision {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.aboutus-vision-heading {
+    font-size: 28px;
+    color: #0033cc;
+}
+
+.aboutus-vision-para {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.opportunities-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 50px;
+    background-color: white;
+    gap: 20px;
+    /* padding: 40px; */
+}
+
+.opportunity-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.opportunity-card:hover {
+    transform: translate(-5px);
+}
+
+.opportunity-image {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.opportunity-content-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.opportunity-content-para{
+    margin: 8px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.explore-link{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.explore-link:hover{
+    text-decoration: underline;
+}
