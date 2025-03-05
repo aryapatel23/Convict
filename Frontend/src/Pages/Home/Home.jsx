@@ -5,6 +5,7 @@ import Review from './Review/Review'
 import Homepagelogin from './Homepagelogin/Homepagelogin'
 import MainBanner from './MainBanner/MainBanner'
 import HireBannerforHome from './HireBannerforHome/HireBannerforHome'
+import Footer from '../../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Review/>
       <Homepagelogin/>
       <HireBannerforHome/>
+      <Footer/>
     </div>
   )
 }
