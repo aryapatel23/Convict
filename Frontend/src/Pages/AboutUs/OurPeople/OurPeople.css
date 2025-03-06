@@ -1,0 +1,17 @@
+.our-people-section{
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.our-people-heading{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.our-people-para{
+    max-width: 600px;
+    margin: 10px auto;
+}
