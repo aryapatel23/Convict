@@ -3,6 +3,7 @@ import './Aboutus.css'
 import OurVision from './OurVision/OurVision';
 import News from './News/News';
 import OurPeople from './OurPeople/OurPeople'
+import Footer from '../../Components/Footer/Footer'
 
 const Aboutus = () => {
 
@@ -14,6 +15,7 @@ const Aboutus = () => {
       <OurVision/>
       <News/>
       <OurPeople/>
+      <Footer/>
     </div>
   )
 }
