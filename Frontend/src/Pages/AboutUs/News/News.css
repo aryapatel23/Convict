@@ -1,0 +1,13 @@
+.news-section{
+    text-align: center;
+    padding: 40px 10px;
+}
+.news-logos{
+    display: flex;
+    justify-content: space-around;
+}
+.news-heading{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+}
