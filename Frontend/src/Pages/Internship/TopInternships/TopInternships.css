@@ -1,0 +1,47 @@
+.top-internships {
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 4px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .internships-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+  .top-internships h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+
+  .internship-cardforlanding {
+    margin-top: 30px;
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+  
+  .duration {
+    display: block;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .view-link {  
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }
