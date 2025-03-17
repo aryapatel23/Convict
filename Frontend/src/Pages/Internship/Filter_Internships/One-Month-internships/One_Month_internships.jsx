@@ -63,13 +63,13 @@ const InternshipSearch = () => {
   };
 
   return (
-    <div className="container">
-      <h2 className="heading">Search for 1-Month Internships</h2>
-      <div className="search-bar">
+    <div className="internship-full-container">
+      <h2 className="internship-heading">Search for 1-Month Internships</h2>
+      <div className="search-bar-for-months">
         <input
           type="text"
           className="search-input"
-          placeholder="Enter internship title..."
+          placeholder="Enter internship name you want..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

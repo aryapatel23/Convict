@@ -1,5 +1,5 @@
 /* Container Styling */
-.container {
+.internship-full-container {
     max-width: 100%;
     margin: 40px auto;
     padding: 20px;
@@ -10,14 +10,14 @@
   }
   
   /* Heading */
-  .heading {
+  .internship-heading {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
   }
   
   /* Search Bar */
-  .search-bar {
+  .search-bar-for-months {
     display: flex;
     justify-content: center;
     gap: 10px;
