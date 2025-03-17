@@ -1,0 +1,24 @@
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .filter-btn {
+    padding: 20px 50px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .filter-btn:hover {
+    background: #f0f0f0;
+  }

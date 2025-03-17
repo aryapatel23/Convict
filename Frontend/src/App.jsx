@@ -6,6 +6,7 @@ import Contectus from './Pages/ContactUs/Contactus.jsx';
 import './App.css'
 import Aboutus from './Pages/AboutUs/Aboutus.jsx';
 import Home from './Pages/Home/Home.jsx';
+import Internship from './Pages/Internship/Internship.jsx';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/internships' element={<Internship />} />
           <Route path='/contactus' element={<Contectus />} />
           <Route path='/Aboutus' element={<Aboutus />} />
         </Routes>
