@@ -3,7 +3,7 @@ import './Filter_Internship.css'
 
 const Filter_Internship = () => {
   return (
-    <div className='mt-[50px]'>
+    <div className='pt-[50px]'>
       <div className="filters">
         <div className="filter-group">
           <button className="filter-btn">1 - Month</button>
