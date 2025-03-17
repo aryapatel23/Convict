@@ -1,0 +1,148 @@
+/* Container Styling */
+.container {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-button:hover {
+    background: #2980b9;
+  }
+  
+  /* Loader */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Internship List */
+  .internship-list {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 3fr)); Two-column grid */
+    grid-template-columns: auto auto auto auto;
+    gap: 10px; /* Adds spacing between grid items */
+    padding: 20px;
+  }
+  
+  /* Internship Card */
+  .internship-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .internship-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .internship-detail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .edit-button {
+    background: #f39c12;
+    color: #fff;
+  }
+  
+  
+  /* Edit Form */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .save-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .save-button:hover {
+    background: #27ae60;
+  }
+  

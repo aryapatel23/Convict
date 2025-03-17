@@ -1,12 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Filter_Internship.css'
 
 const Filter_Internship = () => {
+  const navigate = useNavigate();
   return (
     <div className='pt-[50px]'>
       <div className="filters">
         <div className="filter-group">
-          <button className="filter-btn">1 - Month</button>
+          <button className="filter-btn" onClick={()=> navigate('/internship/1-month')}>1 - Month</button>
           <button className="filter-btn">2 - Months</button>
         </div>
         <div className="filter-group">

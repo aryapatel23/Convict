@@ -7,6 +7,7 @@ import './App.css'
 import Aboutus from './Pages/AboutUs/Aboutus.jsx';
 import Home from './Pages/Home/Home.jsx';
 import Internship from './Pages/Internship/Internship.jsx';
+import InternshipforOnemonth from './Pages/Internship/Filter_Internships/One-Month-internships/One_Month_internships.jsx'
 
 
 
@@ -21,7 +22,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/internships' element={<Internship />} />
           <Route path='/contactus' element={<Contectus />} />
-          <Route path='/Aboutus' element={<Aboutus />} />
+          <Route path='/aboutus' element={<Aboutus />} />
+          <Route path='/internship/1-month' element={<InternshipforOnemonth/>}/>
         </Routes>
       </Router>
     </>
