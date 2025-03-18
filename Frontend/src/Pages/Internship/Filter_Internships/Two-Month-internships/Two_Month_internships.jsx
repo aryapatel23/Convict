@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import { FaBuilding, FaClock, FaMoneyBill, FaUserGraduate, FaBriefcase, FaUsers } from "react-icons/fa";
-import "./One_Month_internships.css";
+import "./Two_Month_internships.css";
 
 const InternshipSearch = () => {
   const [query, setQuery] = useState("");
@@ -22,7 +22,7 @@ const InternshipSearch = () => {
         if (response.ok) {
           // 🔹 Ensure filtering works correctly by making duration lowercase
           const oneMonthInternships = data.filter(
-            (internship) => internship.duration.toLowerCase() === "1 month"
+            (internship) => internship.duration.toLowerCase() === "2 months"
           );
           setInternships(oneMonthInternships);
           setFilteredInternships(oneMonthInternships);
@@ -64,7 +64,7 @@ const InternshipSearch = () => {
 
   return (
     <div className="internship-full-container">
-      <h2 className="internship-heading">Search for 1-Month Internships</h2>
+      <h2 className="internship-heading">Search for 2-Month Internships</h2>
       <div className="search-bar-for-months">
         <input
           type="text"
