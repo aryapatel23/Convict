@@ -12,7 +12,7 @@ const Filter_Internship = () => {
           <button className="filter-btn" onClick={()=> navigate('/internship/2-month')}>2 - Months</button>
         </div>
         <div className="filter-group">
-        <button className="filter-btn">4 - Months</button>
+        <button className="filter-btn" onClick={()=> navigate('/internship/4-month')}>4 - Months</button>
           <button className="filter-btn">6 - Months</button>
         </div>
         <div className="filter-group">
