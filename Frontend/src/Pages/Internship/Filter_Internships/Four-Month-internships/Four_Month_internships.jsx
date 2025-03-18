@@ -105,7 +105,7 @@ const InternshipSearch = () => {
             </div>
           ))
         ) : (
-          <p className="error-message">No 4-month internships available</p>
+          <p className="error-message">No 4-months internships available</p>
         )}
       </div>
     </div>
