@@ -11,6 +11,7 @@ import InternshipforOnemonth from './Pages/Internship/Filter_Internships/One-Mon
 import InternshipforTwomonth from './Pages/Internship/Filter_Internships/Two-Month-internships/Two_Month_internships.jsx'
 import InternshipforFourmonth from './Pages/Internship/Filter_Internships/Four-Month-internships/Four_Month_internships.jsx'
 import InternshipforSixmonth from './Pages/Internship/Filter_Internships/Six-Month-internships/Six_Month_internships.jsx'
+import InternshipDetails from './Pages/Internship/Filter_Internships/Internship_details/Internship_details.jsx';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/internship/2-months' element={<InternshipforTwomonth/>}/>
           <Route path='/internship/4-months' element={<InternshipforFourmonth/>}/>
           <Route path='/internship/6-months' element={<InternshipforSixmonth/>}/>
+          <Route path="/internship/:id" element={<InternshipDetails />} />
         </Routes>
       </Router>
     </>
