@@ -14,7 +14,7 @@ const InternshipSearch = () => {
   const [filteredInternships, setFilteredInternships] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [selectedDuration, setSelectedDuration] = useState("1 month"); // ✅ Default set to "1 month"
+  const [selectedDuration, setSelectedDuration] = useState("1 month"); 
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -27,7 +27,6 @@ const InternshipSearch = () => {
         if (response.ok) {
           setInternships(data);
           
-          // ✅ Automatically filter for "1 month" internships on load
           const defaultFiltered = data.filter(
             (internship) => internship.duration.toLowerCase() === "1 month"
           );

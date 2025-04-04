@@ -1,23 +1,96 @@
-/* Container Styling */
-.internship-full-container {
-  max-width: 100%;
-  margin: 40px auto;
+.internship-container {
+  display: flex;
+  gap: 20px;
   padding: 20px;
-  background: #ffffff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  text-align: center;
+  background-color: #f4f6f9;
+  min-height: 100vh;
 }
 
-/* Heading */
-.internship-heading {
-  font-size: 24px;
+.filter-section {
+  width: 280px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
   color: #333;
+  border-bottom: 2px solid #1F8268;
+  padding-bottom: 5px;
+}
+
+.filter-category {
   margin-bottom: 20px;
 }
 
-/* Search Bar */
-.search-bar-for-months {
+.filter-category h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.filter-item input {
+  accent-color: #1F8268;
+  cursor: pointer;
+}
+
+.filter-item label {
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+.stipend-input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.stipend-input:focus {
+  border-color: #007bff;
+}
+
+.apply-filter-btn {
+  width: 100%;
+  background: #1F8268;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.apply-filter-btn:hover {
+  background: #1F8268;
+}
+
+.internship-content {
+  flex: 1;
+}
+
+.heading {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #222;
+  text-align: center;
+}
+
+.search-bar {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -27,121 +100,96 @@
 .search-input {
   width: 60%;
   padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff;
 }
 
 .search-button {
-  padding: 10px 20px;
-  background: #3498db;
-  color: #fff;
-  font-size: 16px;
+  background: #1F8268;
+  color: white;
+  padding: 10px 15px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .search-button:hover {
-  background: #2980b9;
+  background: #1c725b;
 }
 
-/* Loader */
-.loader-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-/* Error Message */
-.error-message {
-  color: red;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-/* Internship List */
 .internship-list {
-  width: 100%;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(400px, 3fr)); Two-column grid */
-  grid-template-columns: auto auto auto auto;
-  gap: 10px; /* Adds spacing between grid items */
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
 }
 
-/* Internship Card */
 .internship-card {
-  background: #f8f9fa;
+  background: white;
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .internship-title {
-  font-size: 20px;
-  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1F8268;
   margin-bottom: 10px;
 }
 
-.internship-detail{
+.internship-detail {
+  font-size: 14px;
+  color: #555;
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 16px;
-  color: #555;
+  gap: 8px;
   margin-bottom: 5px;
 }
 
-/* Buttons */
-.button-container {
-  display: flex;
-  justify-content: space-between;
+.loader-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  font-size: 16px;
   margin-top: 10px;
 }
 
-.edit-button, .delete-button {
-  padding: 8px 15px;
-  font-size: 14px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: opacity 0.3s;
+@media (max-width: 768px) {
+  .internship-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-input {
+    width: 100%;
+  }
 }
 
-.edit-button {
-  background: #f39c12;
-  color: #fff;
-}
-
-
-/* Edit Form */
-.edit-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.edit-input {
-  padding: 8px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.save-button {
-  padding: 8px 15px;
-  font-size: 14px;
-  background: #2ecc71;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.save-button:hover {
-  background: #27ae60;
-}
