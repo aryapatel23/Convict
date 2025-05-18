@@ -13,6 +13,8 @@ import InternshipforFourmonth from './Pages/Internship/Filter_Internships/Four-M
 import InternshipforSixmonth from './Pages/Internship/Filter_Internships/Six-Month-internships/Six_Month_internships.jsx'
 import InternshipDetails from './Pages/Internship/Filter_Internships/Internship_details/Internship_details.jsx';
 
+import ApplyForm from "./Pages/Internship/Apply_form/Apply_form_for_internship.jsx";
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
           <Route path='/internship/4-months' element={<InternshipforFourmonth/>}/>
           <Route path='/internship/6-months' element={<InternshipforSixmonth/>}/>
           <Route path="/internship/:id" element={<InternshipDetails />} />
+          <Route path="/apply/:internshipId" element={<ApplyForm />} />
         </Routes>
       </Router>
     </>

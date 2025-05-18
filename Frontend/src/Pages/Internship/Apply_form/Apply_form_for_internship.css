@@ -1,0 +1,108 @@
+.apply-form-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .name-fields input {
+    width: 30%;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  .file-upload-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .file-upload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .file-upload input {
+    width: 60%;
+  }
+  
+  .captcha-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .captcha-code {
+    font-size: 20px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .refresh-captcha {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .save-btn, .submit-btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background: #2c9c68;
+  }
+  
+  .submit-btn {
+    background: #218838;
+  }
+  
+  .save-btn:hover, .submit-btn:hover {
+    opacity: 0.9;
+  }
+  
